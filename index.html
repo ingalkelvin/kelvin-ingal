@@ -18,6 +18,9 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
+   <!-- SimpleLightbox plugin CSS-->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
@@ -50,7 +53,7 @@
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#sample_project">Sample Project</a>
+          <a class="nav-link js-scroll-trigger" href="#sample_project">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#contact_me">Contact Me</a>
@@ -171,8 +174,25 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="sample_project">
       <div class="w-100">
-        <h2 class="mb-5 text-primary">Sample Project</h2>
-        <p>Underdevelopment</p>
+        <h2 class="mb-5 text-primary">Portfolio</h2>
+
+        <div id="portfolio">
+        <div class="container-fluid p-0">
+          <div class="row g-0">
+
+              <div class="col-lg-4 col-sm-6">
+                  <a class="portfolio-box" href="img/laravel/1.jpg" title="Tshirt Web App">
+                      <img class="img-fluid shadow-lg" src="img/laravel/1.jpg" alt="..." />
+                      <div class="portfolio-box-caption">
+                          <div class="project-category text-white-50">Laravel 5.4</div>
+                          <div class="project-name">Tshirt Web App</div>
+                      </div>
+                  </a>
+              </div>
+             
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -237,6 +257,13 @@
   <script src="js/resume.min.js"></script>
 
   <script src="js/email.js"></script>
+
+  <!-- SimpleLightbox plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+
+  <script src="js/portfolio.js"></script>
+
+
 
 </body>
 
